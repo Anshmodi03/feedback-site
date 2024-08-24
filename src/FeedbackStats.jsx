@@ -8,10 +8,10 @@ function FeedbackStats({ feedback }) {
 
   return (
     <div className="feedback-stats">
-      <div>Total Feedbacks</div>
-      <div className="num-display">{total}</div>
-      <div>Average Rating</div>
-      <div className="num-display">{average}</div>
+      <div className="feedback-stats1">Total Feedbacks</div>
+      <div className="num-display1">{total}</div>
+      <div className="feedback-stats2">Average Rating</div>
+      <div className="num-display2">{average}</div>
     </div>
   );
 }
